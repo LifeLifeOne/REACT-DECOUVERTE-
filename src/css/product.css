@@ -1,0 +1,78 @@
+.card-product {
+    background: white;
+    padding: 1rem;
+    margin: 1rem;
+    width: 250px;
+    border-radius: 0.3rem;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.22);
+    transform: translateY(0);
+    transition: all 0.2s ease-in-out;
+}
+
+.card-product:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transform: translateY(-0.3rem); 
+}
+
+.card-product h3 {
+    color: #FF5959;
+}
+
+hr {
+opacity: 0.125;
+}
+
+.product-flex {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.product-wrapper {
+    padding: 2rem;
+}
+
+.product-wrapper h2 {
+    text-align: center;
+}
+
+.fa-shoe-prints {
+    color: #BB8082;
+    font-size: 2rem;
+}
+
+.btn {
+    display: block;
+    cursor: pointer;
+    background: transparent;
+    padding: 0.3rem 1rem;
+    border: 3px solid #9FD8DF;
+    border-radius: 0.5rem;
+    transition: 0.3s ease-in-out;
+    text-transform: uppercase;
+    margin: auto;
+    margin-top: 1.5rem;
+}
+
+.btn:hover,
+.btn:active {
+    border: 3px solid #5a9097;
+}
+
+.product-img {
+    max-width: 100%;
+}
+
+.product-stock i {
+    margin-right: 1rem;
+    margin-top: 1rem;
+}
+
+.green {
+    color:lawngreen;
+}
+
+.red {
+    color: tomato;
+}
